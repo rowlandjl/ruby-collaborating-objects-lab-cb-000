@@ -24,7 +24,7 @@ class Artist
     if self.all.detect {|song| song.name == name}.nil?
       Artist.new(name)
     else 
-      self.all.select {|song| song.name == name} 
+      self.all.detect {|song| song.name == name} 
     end 
   end 
   
