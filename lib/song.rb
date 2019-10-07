@@ -13,6 +13,7 @@ class Song
   end 
   
   def self.new_by_filename(name)
+    parse = 
   end 
   
   def artist_name=(name)
