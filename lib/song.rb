@@ -17,6 +17,7 @@ class Song
     artist = Artist.find_or_create_by_name(parse[0])
     song = Song.new(parse[1])
     artist.add_song(song)
+    
   end 
   
   def artist_name=(name)
