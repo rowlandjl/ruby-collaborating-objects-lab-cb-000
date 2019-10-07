@@ -12,7 +12,7 @@ class Song
     self.class.all << self 
   end 
   
-  def self.new_by_filename 
+  def self.new_by_filename(name)
   end 
   
   def artist_name=(name)
